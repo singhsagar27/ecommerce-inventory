@@ -1,0 +1,16 @@
+# GUI Library (If using PyQt6, otherwise Tkinter is built-in)
+PyQt6  # If using PyQt for GUI (remove if using Tkinter)
+
+# ORM / Database (SQLAlchemy for ORM if needed)
+SQLAlchemy  # If using ORM for structured DB management
+
+# Unit Testing
+pytest  # For writing and running unit tests
+pytest-cov  # To measure test coverage
+
+# Linting & Code Formatting
+flake8  # Ensures PEP8 compliance
+black  # Auto-formats code
+
+# Other utilities
+pydantic  # For data validation (optional)
