@@ -97,6 +97,9 @@ pytest --cov=src tests/
 - Code follows **PEP8 standards**.
 - Uses `flake8` for linting and `black` for formatting.
 
+## License
+MIT License
+
 ## Author
-Your Name - [GitHub Profile]([Sagar Singh](https://github.com/singhsagar27))
+Sagar Singh - [GitHub Profile](https://github.com/singhsagar27)
 
