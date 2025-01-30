@@ -10,6 +10,7 @@ This project is a simple **E-commerce Inventory Management System** built using 
 - **Design Patterns**: Implements the **Factory Pattern** to manage product creation.
 - **Error Handling**: Meaningful error messages for invalid operations.
 - **Testing**: Unit tests using `pytest` to ensure code reliability.
+- **GUI**: A user-friendly interface for managing inventory.
 
 ## Installation
 ### Prerequisites

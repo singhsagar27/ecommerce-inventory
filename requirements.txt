@@ -1,6 +1,3 @@
-# GUI Library (If using PyQt6, otherwise Tkinter is built-in)
-PyQt6  # If using PyQt for GUI (remove if using Tkinter)
-
 # ORM / Database (SQLAlchemy for ORM if needed)
 SQLAlchemy  # If using ORM for structured DB management
 
