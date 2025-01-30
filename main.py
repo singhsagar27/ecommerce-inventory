@@ -69,11 +69,19 @@ def main():
                 print("Product not found.")
 
         elif choice == "5":
-            category_name = input("Enter category (Electronics/Clothing): ")
-            category = (
-                electronics if category_name.lower() == "electronics" else clothing
-            )
+            category_name = input("Enter category (Electronics/Clothing): ").strip().lower()
+
+            # Validate category input
+            if category_name == "electronics":
+                category = electronics
+            elif category_name == "clothing":
+                category = clothing
+            else:
+                print("❌ Error: Please select between 'Electronics' or 'Clothing' only.")
+                continue  # Go back to menu
+
             products = inventory.get_products_by_category(category)
+
             if products:
                 for product in products:
                     print(product)

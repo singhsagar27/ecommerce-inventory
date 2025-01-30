@@ -40,12 +40,17 @@ This project is a simple **E-commerce Inventory Management System** built using 
    pip install -r requirements.txt
    ```
 
-4. **Run the application**
+4. **Install pre-commit hooks**
+   ```bash
+   pre-commit install
+   ```
+
+5. **Run the application**
    ```bash
    python main.py
    ```
 
-5. **(Optional) Deactivate the virtual environment**  
+6. **(Optional) Deactivate the virtual environment**  
    ```bash
    deactivate
    ```
@@ -95,7 +100,7 @@ pytest --cov=src tests/
 
 ## Code Quality
 - Code follows **PEP8 standards**.
-- Uses `flake8` for linting and `black` for formatting.
+- The project uses pre-commit hooks to automatically run linting and formatting tools (such as `flake8`, `black`) on each commit. The hooks will be installed and activated when you run `pre-commit install`.
 
 ## License
 MIT License

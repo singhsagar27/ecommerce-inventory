@@ -14,3 +14,4 @@ black  # Auto-formats code
 
 # Other utilities
 pydantic  # For data validation (optional)
+pre-commit  # For pre-commit hooks
